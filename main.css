@@ -1,0 +1,24 @@
+.my-nav {
+    background-color: black !important;
+    height: 10vh;
+}
+
+.link-icon {
+    height: 50px;
+    width: 50px;
+    float: right;
+    border-radius: 50%;
+    margin: 10%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+    height:10vh;
+    width: 100vw;    
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+}
