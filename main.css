@@ -38,10 +38,15 @@ html { scroll-behavior: smooth;}
 }
 
 .navbar-brand {
-    margin-top: 10px;
     vertical-align: middle;
     padding: 0px 0px 0px 40px;
     color: var(--dark) !important;
+}
+
+.nav-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
 }
 
 /*footer*/
@@ -59,7 +64,7 @@ html { scroll-behavior: smooth;}
 
 .foot-text {
     vertical-align: middle;
-    color: var(--dark);
+    color: black;
     padding: 20 10 10 10;
 }
 
@@ -102,7 +107,7 @@ html { scroll-behavior: smooth;}
 }
 
 #about h1 {
-    font-size: 100px;
+    font-size: 70px;
     font-weight: 500;
 }
 
@@ -122,7 +127,16 @@ html { scroll-behavior: smooth;}
     color: var(--mygold);
     text-align: center;
 }
+
+#work .hr-line {
+    width: 80vw;
+    height: 5px;
+    background-color: var(--mygold);
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
 #work h1 {
-    font-size: 100px;
+    font-size: 70px;
     font-weight: 500;
 }

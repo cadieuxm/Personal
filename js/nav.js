@@ -1,7 +1,7 @@
 document.write('\
     <nav class="navbar navbar-expand-lg my-nav">\
         <div class="container-fluid">\
-            <a class="navbar-brand" href="index.html"><h2>Michael</h2></a>\
+            <a class="navbar-brand" href="index.html"><img class = "nav-img" src = "assets/m.png" ></a>\
             <div class="collapse navbar-collapse" id="navbarSupportedContent">\
                 <ul class="navbar-nav me-auto ms-lg-4">\
                     <li class="nav-item">\
