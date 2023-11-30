@@ -9,10 +9,37 @@ html { scroll-behavior: smooth;}
 @media screen and (max-width: 1000px) {
 
 } 
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+    background-color: black;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: var(--darker);
+    box-shadow: inset 0 0 5px var(--dark); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--mylightgold); 
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--mygold); 
+  }
+
 :root {
-    --dark: rgb(44,52,60);
-    --mygold: #af966b;
-    --mylightgold: rgb(182, 162, 129);
+    --darker: rgb(20,20,30);
+    --dark: rgb(40,40,60);
+    --mygold: rgb(175,150,107);
+    --mylightgold: rgb(219, 200, 168);
 }
 
 /*buttons*/
@@ -130,16 +157,16 @@ html { scroll-behavior: smooth;}
     height: 5px;
     background-color: var(--dark);
     display: inline-block;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #about h1 {
     font-size: 70px;
     font-weight: 500;
+    margin: 20px;
 }
 
 .about-body {
-    margin-top: 25px;
     max-width: 50vw;
     display: inline-block;
     font-size: large;
@@ -160,13 +187,13 @@ html { scroll-behavior: smooth;}
     height: 5px;
     background-color: var(--mygold);
     display: inline-block;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #work h1 {
     font-size: 70px;
     font-weight: 500;
-    margin-bottom: 0px;
+    margin: 20px;
 }
 
 .work-body {
