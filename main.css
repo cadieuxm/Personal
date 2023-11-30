@@ -11,7 +11,7 @@ html { scroll-behavior: smooth;}
 } 
 :root {
     --dark: rgb(44,52,60);
-    --mygold: rgba(175,150,107,255);
+    --mygold: #af966b;
     --mylightgold: rgb(182, 162, 129);
 }
 
@@ -68,6 +68,10 @@ html { scroll-behavior: smooth;}
 
 .nav-item:hover {
     background-color: var(--mygold);
+}
+
+.navbar-toggler {
+    margin-right: 50px;
 }
 
 /*footer*/
