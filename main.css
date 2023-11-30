@@ -34,7 +34,6 @@ html { scroll-behavior: smooth;}
 .my-nav {
     width: 100vw;
     background-color: var(--mygold) !important;
-    height: 8vh;
     color: var(--dark) !important;
     position: fixed !important;
 }
@@ -62,8 +61,10 @@ html { scroll-behavior: smooth;}
     border-radius: 20px;
     border: 1px solid rgb(26, 26, 26);
     background-color: var(--mylightgold);
-    margin: 0px 5px 0px 5px;
+    margin: 5px;
     text-align: center;
+    font-weight: 500;
+    font-size: large;
 }
 
 .nav-item:hover {
