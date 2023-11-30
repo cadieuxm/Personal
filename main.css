@@ -1,6 +1,7 @@
 body{
     font-family: 'Atkinson Hyperlegible', sans-serif !important;
     color: rgb(231, 231, 231) !important;
+    background-color: var(--mygold);
 }
 
 html { scroll-behavior: smooth;}
@@ -61,11 +62,12 @@ html { scroll-behavior: smooth;}
     border-radius: 20px;
     border: 1px solid rgb(26, 26, 26);
     background-color: var(--mylightgold);
-    margin: 5px;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
 }
 
 .nav-item:hover {
-    background-color: transparent;
+    background-color: var(--mygold);
 }
 
 /*footer*/
@@ -159,7 +161,7 @@ html { scroll-behavior: smooth;}
 #work h1 {
     font-size: 70px;
     font-weight: 500;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .work-body {
